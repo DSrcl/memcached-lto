@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# run autotool and configure
+config() {
+	prevdir=`pwd`
+	echo "Configuring $1"
+	cd $1
+	./autogen.sh
+	./configure
+	cd $prevdir
+}
+
+config memcached
+config libevent
