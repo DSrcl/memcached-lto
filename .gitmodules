@@ -1,0 +1,6 @@
+[submodule "libevent"]
+	path = libevent
+	url = git://github.com/DSrcl/libevent.git
+[submodule "memcached"]
+	path = memcached
+	url = git://github.com/DSrcl/memcached.git
