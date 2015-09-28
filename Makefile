@@ -1,5 +1,5 @@
 LDFLAGS=-lssl -lcrypto
-LD=Clang
+LD=clang
 MEMCACHED_DIR=memcached
 LIBEVENT_DIR=libevent
 
